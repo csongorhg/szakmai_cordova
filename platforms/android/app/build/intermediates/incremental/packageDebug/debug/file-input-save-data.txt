@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 24 19:39:40 CEST 2018
+#Wed Oct 24 20:07:48 CEST 2018
 56.path=www/lib/onsen/css/onsen-css-components.css
 5.base=C\:\\\!programs\\cordova\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 42.base=C\:\\\!programs\\cordova\\platforms\\android\\app\\build\\intermediates\\assets\\debug
