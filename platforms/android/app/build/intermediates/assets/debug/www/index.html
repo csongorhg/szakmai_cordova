@@ -30,25 +30,29 @@
 </head>
 <body>
 
-<ons-page id="helloworld-page">
+<ons-page>
     <ons-toolbar>
-        <div class="center"></div>
-        <div class="right">
-            <ons-toolbar-button>
-                <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
-            </ons-toolbar-button>
-        </div>
+        <div class="center">Card</div>
     </ons-toolbar>
 
-    <p style="text-align: center">
-        <ons-button>Click me!</ons-button>
-    </p>
-
-    <script>
-        ons.getScriptPage().onInit = function () {
-            console.log('This is a lifecycle hook!', this);
-        };
-    </script>
+    <ons-card>
+        <img src="img/playground/aa2.png" alt="aa2" style="width: 100%">
+        <div class="title">
+            Awesome framework
+        </div>
+        <div class="content">
+            <div>
+                <ons-button><ons-icon icon="ion-thumbsup"></ons-icon></ons-button>
+                <ons-button><ons-icon icon="ion-share"></ons-icon></ons-button>
+            </div>
+            <ons-list>
+                <ons-list-header>Bindings</ons-list-header>
+                <ons-list-item>Vue</ons-list-item>
+                <ons-list-item>Angular</ons-list-item>
+                <ons-list-item>React</ons-list-item>
+            </ons-list>
+        </div>
+    </ons-card>
 </ons-page>
 
 </body>
